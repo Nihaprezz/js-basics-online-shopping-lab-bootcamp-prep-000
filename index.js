@@ -54,10 +54,9 @@ function removeFromCart(item) {
     if(cart[i].itemName === item){
        cart.splice(i, 1);
        return cart;
-    } else {
-    
     }
   }
+  return 'That item is not in your cart';
 }
 
 console.log(removeFromCart('eggs'));
