@@ -23,7 +23,7 @@ function viewCart() {
   var stringArray =[];
   
   for (var i = 0; i < cart.length; i++){
-    
+    stringArray
   }
 }
 
