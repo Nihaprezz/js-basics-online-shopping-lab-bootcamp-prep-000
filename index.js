@@ -16,7 +16,7 @@ function addToCart(item) {
   return `${item} has been added to your cart.`;
 }
 addToCart('bananas');
-//addToCart('eggs');
+addToCart('eggs');
 
 function viewCart() {
   // write your code here
@@ -25,7 +25,7 @@ function viewCart() {
   if(cart.length === 1){
     itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}`;
   } else if (cart.length === 2){
-    itemString = 
+    itemString = `${itemString}, and ${cart[1].itemName} at ${cart[1].itemPrice}`;
   }
   
   
