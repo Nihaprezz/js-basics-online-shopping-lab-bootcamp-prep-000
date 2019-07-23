@@ -20,7 +20,11 @@ addToCart('bananas');
 
 function viewCart() {
   // write your code here
+  var itemString ='';
   
+  if(cart.length === 1){
+    itemString = `you
+  }
   }
 }
 
