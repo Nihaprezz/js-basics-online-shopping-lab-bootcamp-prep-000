@@ -21,6 +21,8 @@ addToCart('bananas');
 
 function viewCart() {
   // write your code here
+  if(cart.le)
+  
   var itemString ='';
   
   if(cart.length === 1){
