@@ -22,7 +22,7 @@ function viewCart() {
   // write your code here
   switch (cart.length){
     case 1:
-      return `you have ${cart.itemName} at ${itemPrice}.`
+      return `you have ${cart.itemName} at ${cart.itemPrice}.`
   }
 }
 
