@@ -26,9 +26,9 @@ function viewCart() {
   if(cart.length === 1){
     itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}`;
   } else if (cart.length === 2){
-    itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at ${cart[1].itemPrice}`;
+    itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at $${cart[1].itemPrice}`;
   } else if (cart.length === 3){
-    itemString = `you have ${cart[0].itemName} at ${cart[0].itemPrice}, ${cart[1].itemName} at ${cart[1].itemPrice}, and ${cart[2].itemName} at ${cart[2].itemPrice}`
+    itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice}, and ${cart[2].itemName} at $${cart[2].itemPrice}`
   }
   
   return itemString;
