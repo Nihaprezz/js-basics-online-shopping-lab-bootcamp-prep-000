@@ -26,7 +26,7 @@ function viewCart() {
   }
 }
 
-viewCart()
+console.log(viewCart());
 
 
 
