@@ -23,7 +23,7 @@ function viewCart() {
   //switch (cart.length)
 }
 
-console.log(cart.length + 1);
+console.log(cart.length);
 
 viewCart()
 
