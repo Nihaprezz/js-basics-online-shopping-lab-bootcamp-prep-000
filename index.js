@@ -30,7 +30,6 @@ function viewCart() {
   } else if (cart.length === 3){
     itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice}, and ${cart[2].itemName} at $${cart[2].itemPrice}`
   }
-  
   return `In your cart, ${itemString}.`;
 }
 
