@@ -58,6 +58,7 @@ function removeFromCart(item) {
 }
 
 console.log(removeFromCart('eggs'));
+console.log(cart);
 
 function placeOrder(cardNumber) {
   // write your code here
