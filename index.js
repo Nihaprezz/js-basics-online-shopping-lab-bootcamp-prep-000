@@ -27,7 +27,7 @@ function viewCart() {
   } else if (cart.length === 2){
     itemString = `${itemString}, and ${cart[1].itemName} at ${cart[1].itemPrice}`;
   }
-  
+  return itemString;
   
 }
 
