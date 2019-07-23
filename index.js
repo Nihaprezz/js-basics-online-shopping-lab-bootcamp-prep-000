@@ -20,7 +20,7 @@ addToCart('eggs');
 
 function viewCart() {
   // write your code here
-  switch (cart.length)
+  //switch (cart.length)
 }
 
 console.log(cart.length + 1);
