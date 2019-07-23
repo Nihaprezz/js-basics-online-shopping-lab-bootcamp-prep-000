@@ -37,7 +37,7 @@ function viewCart() {
   return `In your cart, ${itemString}.`;
 }
 
-console.log(viewCart());
+//console.log(viewCart());
 
 
 
