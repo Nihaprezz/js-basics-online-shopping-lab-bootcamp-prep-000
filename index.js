@@ -17,7 +17,7 @@ function addToCart(item) {
 }
 //addToCart('bananas');
 //addToCart('eggs');
-//addToCart('almonds');
+addToCart('almonds');
 
 function viewCart() {
   // write your code here
@@ -37,7 +37,7 @@ function viewCart() {
   return `In your cart, you have ${itemString}.`;
 }
 
-//console.log(viewCart());
+console.log(viewCart());
 
 
 
