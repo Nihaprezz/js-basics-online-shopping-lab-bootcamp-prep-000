@@ -17,6 +17,7 @@ function addToCart(item) {
 }
 addToCart('bananas');
 addToCart('eggs');
+addToCart('almonds');
 
 function viewCart() {
   // write your code here
