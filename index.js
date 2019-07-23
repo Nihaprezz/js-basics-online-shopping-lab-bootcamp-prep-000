@@ -57,6 +57,8 @@ function removeFromCart(item) {
   }
 }
 
+console.log(removeFromCart('eggs'));
+
 function placeOrder(cardNumber) {
   // write your code here
 }
