@@ -25,7 +25,8 @@ function viewCart() {
   if(cart.length === 1){
     itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}.`;
   }
-  }
+  
+  return itemString;
 }
 
 console.log(viewCart());
