@@ -75,3 +75,4 @@ function placeOrder(cardNumber) {
 }
 
 console.log(placeOrder(83296759));
+console.log(cart);
