@@ -20,9 +20,7 @@ addToCart('bananas');
 
 function viewCart() {
   // write your code here
-  switch (cart.length){
-    case 1:
-      return `you have ${cart[0].itemName} at ${cart[0].itemPrice}.`
+  
   }
 }
 
