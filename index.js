@@ -21,11 +21,11 @@ addToCart('eggs');
 function viewCart() {
   // write your code here
   for (var i = 0; i < cart.length; i++){
-    
+    console.log(cart[i]);
   }
 }
 
-
+viewCart()
 
 
 function total() {
