@@ -22,7 +22,7 @@ addToCart('bananas');
 function viewCart() {
   // write your code here
   if(cart.length === undefined){
-    
+    return ''
   }
   
   var itemString ='';
