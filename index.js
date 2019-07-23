@@ -67,4 +67,4 @@ function placeOrder(cardNumber) {
   }
 }
 
-placeOrder();
+console.log(placeOrder());
