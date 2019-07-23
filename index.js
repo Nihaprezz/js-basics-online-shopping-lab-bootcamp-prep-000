@@ -15,14 +15,14 @@ function addToCart(item) {
   cart.push(newObj);
   return `${item} has been added to your cart.`;
 }
-addToCart('bananas');
+//addToCart('bananas');
 //addToCart('eggs');
 //addToCart('almonds');
 
 function viewCart() {
   // write your code here
   if(cart.length === undefined){
-    return ''
+    return 'Your shopping cart is empty';
   }
   
   var itemString ='';
