@@ -15,17 +15,19 @@ function addToCart(item) {
   cart.push(newObj);
   return `${item} has been added to your cart.`;
 }
-addToCart('banana');
+addToCart('bananas');
 addToCart('eggs');
 
 function viewCart() {
   // write your code here
-  //switch (cart.length)
+  switch (cart.length){
+    case 1:
+      return `you have ${cart.itemName} at ${itemPrice}.`
+  }
 }
 
-console.log(cart.length);
 
-viewCart()
+
 
 
 function total() {
