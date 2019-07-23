@@ -23,7 +23,7 @@ function viewCart() {
   var itemString ='';
   
   if(cart.length === 1){
-    itemString = `you
+    itemString = `you have ${cart[0].itemName} at $${cart[0].itemPrice}.`;
   }
   }
 }
