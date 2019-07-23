@@ -15,8 +15,8 @@ function addToCart(item) {
   cart.push(newObj);
   return `${item} has been added to your cart.`;
 }
-//addToCart('bananas');
-//addToCart('eggs');
+addToCart('bananas');
+addToCart('eggs');
 addToCart('almonds');
 
 function viewCart() {
@@ -37,12 +37,10 @@ function viewCart() {
   return `In your cart, you have ${itemString}.`;
 }
 
-//console.log(viewCart());
-
-
 
 function total() {
   // write your code here
+  
 }
 
 function removeFromCart(item) {
