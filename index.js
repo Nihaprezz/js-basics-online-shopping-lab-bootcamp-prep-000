@@ -47,6 +47,7 @@ function total() {
   return sum;
 }
 
+console.log(`Before remove function ${cart}`);
 
 function removeFromCart(item) {
   // write your code here
