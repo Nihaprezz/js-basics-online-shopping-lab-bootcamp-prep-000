@@ -20,11 +20,7 @@ addToCart('eggs');
 
 function viewCart() {
   // write your code here
-  var stringArray =[];
-  
-  for (var i = 0; i < cart.length; i++){
-    stringArray
-  }
+
 }
 
 viewCart()
