@@ -21,6 +21,7 @@ addToCart('almonds');
 
 function viewCart() {
   // write your code here
+  //Code below is bad, only works with 3 items. Once 3+ is added to the cart it will break. Need to find universal code..... /:
   if(cart.length === 0){
     return 'Your shopping cart is empty.';
   }
