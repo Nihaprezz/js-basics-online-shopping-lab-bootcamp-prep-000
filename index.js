@@ -16,7 +16,7 @@ function addToCart(item) {
   return `${item} has been added to your cart.`;
 }
 addToCart('bananas');
-addToCart('eggs');
+//addToCart('eggs');
 //addToCart('almonds');
 
 function viewCart() {
